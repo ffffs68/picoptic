@@ -2,7 +2,7 @@ from machine import Pin
 import time
 
 laser = Pin(16,Pin.OUT)
-period = 0.1
+period = 0.05
 
 print("pointing...")
 
